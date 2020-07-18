@@ -1,14 +1,25 @@
 {
   "name": "p6-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend SoPekocko",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.23",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "password-validator": "^5.0.3"
   }
 }
