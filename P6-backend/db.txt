@@ -1,6 +1,0 @@
-// Connexion à MongoDB
-
-DB_HOST=cluster0.4ydad.mongodb.net
-DB_USER=ronvts
-DB_PASSWORD=1210
-DB_NAME=5f0ca8d7f6f5b272c3cb1027

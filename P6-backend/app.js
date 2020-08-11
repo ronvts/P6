@@ -9,7 +9,7 @@ const userRoutes = require('./routes/user');
 
 const app = express();
 
-require('dotenv').config({ path: process.cwd() + '/db.txt' }); //Masque les informations de connexion à la db
+require('dotenv').config(); //Masque les informations de connexion à la db
 
 //Connexion à la base données MongoDB
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`,
